@@ -1,0 +1,218 @@
+.paperContainer{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 60px;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.invoiceBox{ 
+    width: 90%;
+    overflow: hidden;
+    box-shadow: 0px 0px 6px #888888;
+}
+ 
+/* --------------------------------------Top Section------------------------------------ */
+
+.topSection{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+.topSection-1{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    margin-left: 32px;
+}
+
+.topSection-2{
+    display: flex;
+    flex-direction: column;
+    width:40%;
+    align-items: center;
+}
+
+.logoContainer{
+    min-width: 10rem;
+    min-height: 10rem;
+    max-height: 12rem;
+    max-width: 10rem;
+}
+
+.logo{
+    max-height: 10rem;
+    max-width: 10rem;
+    width:100%;
+}
+
+/* --------------------------------------Middle Section------------------------------------ */
+
+
+.middleSection{
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.middleSection-1{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    min-width: 45%;
+    margin-left: 32px;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.middleSection-2{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    min-width: 45%;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.infoContainer{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    background-color: white;
+    flex-direction: column;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border:solid 1px rgb(129, 129, 129);
+}
+
+.infoContainer-1{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;   
+}
+
+/* --------------------------------------Add Section------------------------------------ */
+
+.addSection{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.addSection-1{
+    background-color: #8000FF;
+    margin-left: 32px;
+    width:91%;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;                  
+}
+
+.addSection-2{
+    margin-left: 32px;
+    width:91%;
+    display: flex;
+    align-items: center; 
+}
+
+.items-style{
+    color: white;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 20px;
+    padding: 0.5rem;
+}
+
+.buttonContainer{
+    margin-top: 20px;
+    margin-left: 32px;
+    width: 15rem;
+}
+
+.generateButtonContainer{
+    max-width: 15rem;
+    min-width: 15rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.Desc{
+    margin-left:40px;
+    width:90%;
+}
+
+
+/* --------------------------------------Media Queries------------------------------------ */
+@media (max-width : 850px){
+
+    .invoiceBox{
+        width: 100%;
+    }
+
+    .topSection-1{
+        width: 100%;
+        margin:0;
+    }
+
+    .topSection-2{
+        align-items: left;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .middleSection-1{
+        margin: 0%;
+        width: 100%;
+    }
+
+    .middleSection-2{
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    span{
+        font-size: 16px;
+        max-width: 60px;
+    }
+
+    .addSection-1{
+        margin:0;
+        width:100%;
+    }
+
+    .addSection-2{
+        margin:0;
+        width:100%;
+    }
+
+    .items-style{
+        font-size: 12px;
+    }
+
+    .buttonContainer{
+        margin-top: 20px;
+        margin-left:0;
+        width:100%;
+    }
+
+    .generateButtonContainer{
+        min-width: 95%;
+    }
+
+    .DescCont{
+        display:flex;
+        justify-content:center;
+    }
+
+    .Desc{
+        margin-left: 0;
+        width:95%;
+    }
+}

@@ -1,0 +1,76 @@
+.pdfContainer{
+    min-width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:0.5rem;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://res.cloudinary.com/social-media-youthful/image/upload/v1624093434/backgrnd_vm8ywh.png);
+}
+
+.pdfContainer-1{
+    width: 90%;
+    display: flex;
+    margin-top: 300px;
+    overflow: hidden;
+    flex-direction: column;
+    font-family:'Roboto';
+}
+
+.pdfTop{
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pdfTop-1{
+    width: 50%;
+    max-width: 50%;
+    max-height: 250px;
+    display: left;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pdfTop-2{
+    max-width: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 200px;
+}
+
+.pdfMiddle{
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.pdfMiddle-1{
+    width: 50%;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pdfMiddle-2{
+    max-width: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pdfTableContainer{
+    min-width: 100%;
+    margin-top: 32px;
+}
+
+@page{
+    
+    size : 11.7in  16.5in;
+}
